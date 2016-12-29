@@ -20,7 +20,7 @@ This is admittedly ugly and inefficient, but it works. Suggestions for improveme
 ```sql
 mysql> CREATE DATABASE schedule70;
 mysql> CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
-mysql> GRANT INSERT ON schedule70 . * TO 'user'@'localhost';
+mysql> GRANT CREATE, INSERT ON schedule70 . * TO 'user'@'localhost';
 ```
 * Make the scraper script executable: ```chmod +x scraper.sh```
 * Run the scraper script and pass in your MySQL credentials:
