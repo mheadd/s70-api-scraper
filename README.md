@@ -12,7 +12,7 @@ For now, scraping the data from the eLibrary site gets around these limitations,
 
 ## Usage
 
-This is admittedly ugly and inefficient, but it works. Suggestions for improvements welcomed.
+This is admittedly ugly and inefficient, but it works. Suggestions for improvements welcomed. You'll need [Node.js](https://nodejs.org/en/), [csvkit](https://csvkit.readthedocs.io/en/1.0.0/) and [MySQL](https://www.mysql.com/) installed to run this script.
 
 * Clone this repo and install dependencies: ```npm install```
 * Create a new MySQL database and user:
