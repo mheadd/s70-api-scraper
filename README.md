@@ -28,3 +28,5 @@ mysql> GRANT INSERT ON schedule70 . * TO 'user'@'localhost';
 ```bash
 ~$ ./scraper.sh "user" "password" "localhost" "schedule70"
 ```
+
+Note - you can modify the the categories that get scraped by [modifying the array](https://github.com/mheadd/s70-api-scraper/blob/master/scraper.sh#L10) in the scraper script.
