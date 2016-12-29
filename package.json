@@ -2,7 +2,7 @@
   "name": "s70-api-scraper",
   "version": "0.0.7",
   "description": "A data scraper for GSA scheudle 70 vendor data",
-  "main": "index.js",
+  "main": "scraper.js",
   "author": "Mark Headd",
   "license": "ISC",
   "dependencies": {
