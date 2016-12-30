@@ -2,7 +2,7 @@
 -- Script to creat / format columns for GSA eLibrary data.
 -- ********************
 
-use schedule70;
+USE schedule70;
 
 -- Change State_Local_Auth to a Boolean.
 ALTER TABLE data add State_Local BOOLEAN;

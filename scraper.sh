@@ -10,7 +10,6 @@ DATABASE=$4
 declare -a categories=("132+50" "132+51" "132+52" "132+53" "132+56")
 
 # Header row in CSV file.
-
 echo '"Category","Contractor_Name","Contractor_Details_URL","State_Local_Auth","Contract_Number","Phone","Location","Socio_Economic_Indicators","Contractor_TC_Price_List","View_Catalog"' > data/data.csv
 
 ## Invoke node script to scrape Schedule 70 data by category.

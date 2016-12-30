@@ -30,3 +30,9 @@ mysql> GRANT CREATE, INSERT ON schedule70 . * TO 'user'@'localhost';
 ```
 
 Note - you can modify the the categories that get scraped by [modifying the array](https://github.com/mheadd/s70-api-scraper/blob/master/scraper.sh#L10) in the scraper script.
+
+Once the data is scraped, you can export it from MySQL into a CSV file like this:
+
+```bash
+~$ mysql -u user -p < sql/export.sql
+```
