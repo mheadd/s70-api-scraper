@@ -1,5 +1,5 @@
 -- ********************
--- Script to creat / format columns for GSA eLibrary data.
+-- Script to create / format columns for GSA eLibrary data.
 -- ********************
 
 USE schedule70;
